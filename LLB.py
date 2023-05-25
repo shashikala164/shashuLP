@@ -19,8 +19,10 @@ def binary_search(arr,target):
             
             arr=input("enter the sorted array").split()
             arr=[int(num) for num in arr
-            target=int(input("enter the sorted number"))
-            result=binary_search(arr,target)
+                 
+                 
+                target=int(input("enter the sorted number"))
+                result=binary_search(arr,target)
                  
 if result!= -1:
                  print("element found")
