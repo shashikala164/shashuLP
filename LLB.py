@@ -15,6 +15,9 @@ def binary_search(arr,target):
             high=mid-1
             
             
+            return -1
+            
+            
             #example
             
             arr=input("enter the sorted array").split()
