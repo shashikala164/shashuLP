@@ -25,12 +25,16 @@ def binary_search(arr,target):
         
             target=int(input("enter the sorted number"))
             result=binary_search(arr,target)
+            
                  
-if result != -1:
+            if result != -1:
+                
 
-                 print("element found")
-else:
-                 print("element not found")
+                print("element found")
+                    
+            else:
+                
+                print("element not found")
                  
                              
      
